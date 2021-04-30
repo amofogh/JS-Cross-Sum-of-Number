@@ -1,0 +1,107 @@
+@import "https://fonts.google.com/download?family=Poiret%20One";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poiret One;
+  outline: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background: #F7FFF7;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.brand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 1rem;
+  color: #1A535C;
+}
+
+section {
+  width: 30%;
+  position: relative;
+  flex-direction: column;
+  height: 100rem;
+}
+
+.input {
+  border: none;
+  background: #4ECDC4;
+  color: #fdfffc;
+  padding: 1rem;
+  width: 20rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  transition: all 0.8s ease;
+  font-size: 1.5rem;
+}
+
+.input:focus {
+  width: calc(25rem);
+}
+
+.btn {
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 35%;
+  height: 3rem;
+  background: #FF6B6B;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  color: #fdfffc;
+  border-radius: 10px;
+}
+
+.btn:active {
+  border: 1px solid #1A535C;
+}
+
+.demo,
+.Show {
+  color: #FFE66D;
+  order: -1;
+  font-size: 5rem;
+}
+
+.Show {
+  font-size: 2rem;
+  color: #FF6B6B;
+  margin-bottom: 1rem;
+  align-self: flex-end;
+}
+
+footer {
+  position: absolute;
+  margin: 1rem;
+  bottom: 0;
+  right: 0;
+  color: #011627;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4ECDC4;
+}
+header {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
